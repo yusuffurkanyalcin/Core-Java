@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Customer customer1 =
-                CustomerFactory.createWithDefaultCategory(
+                Customer.createWithDefaultCategory(
                 "Furkan","Yalçın","Elazığ"
                 );
 
@@ -13,7 +13,7 @@ public class Main {
         System.out.println("--------------------------");
 
         Customer customer2 =
-                CustomerFactory.createWithoutDefault(
+                Customer.createWithoutDefault(
                         "Ali","Miraç","Elazığ","Tüzel"
                 );
 
