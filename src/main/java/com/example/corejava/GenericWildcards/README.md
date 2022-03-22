@@ -1,8 +1,8 @@
 ## Upper Bounded Wildcards: 
 - For example, you want to write a method that works on `List<Integer>` , `List<Double>` etc and It depends your requests
 - You can use the expression 
-- `
-  public static void main(String[] args)
+```
+  public static void main(String[] args)`
     {
  
         // Upper Bounded Integer List
@@ -27,7 +27,7 @@
  
         return sum;
     }
-    `
+```
 
 ## Lower Bounded Wildcards:
 - When you want to use a class and its superclasses ,you can use the expression
