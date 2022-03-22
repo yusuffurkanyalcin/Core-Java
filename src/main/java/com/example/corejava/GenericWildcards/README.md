@@ -2,7 +2,7 @@
 - For example, you want to write a method that works on `List<Integer>` , `List<Double>` etc and It depends your requests
 - You can use the expression 
 ```
-  public static void main(String[] args)`
+  public static void main(String[] args)
     {
  
         // Upper Bounded Integer List
@@ -31,7 +31,8 @@
 
 ## Lower Bounded Wildcards:
 - When you want to use a class and its superclasses ,you can use the expression
-- `public static void main(String[] args)
+```
+   public static void main(String[] args)
     {
         // Lower Bounded Integer List
         List<Integer> list1 = Arrays.asList(4, 5, 6, 7);
@@ -50,11 +51,13 @@
         List<? super Integer> list)
     {
         System.out.println(list);
-    }`
+    }
+```    
 
 ## Unbounded Wildcards:
 - When the code is using methods in the generic class that doesn’t depend on the type parameter
-- `public static void main(String[] args)
+```
+   public static void main(String[] args)
     {
  
         // Integer List
@@ -72,4 +75,5 @@
     {
  
         System.out.println(list);
-    }`
+    }
+```    
